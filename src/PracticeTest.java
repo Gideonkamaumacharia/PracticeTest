@@ -85,19 +85,19 @@ public class PracticeTest {
     }
 
     //CountOccurences
-    public int[] countOccurrences (int [] nums){
-        int[] numbers = {5,6,8,9,5,6};
-        Map<Integer,Integer> countMap = new HashMap<>();
-
-        for(int num : nums){
-            if(countMap.containsKey(num)){
-                countMap.put(num,countMap.get(num) + 1);
-            }
-            else {
-                countMap.put(num,1);
-            }
-        }
-        for (Map.Entry<Integer, Integer> entry : countMap.entrySet()) {
-            System.out.println(entry.getKey() + " -> " + entry.getValue());
-    }
+//    public int[] countOccurrences (int [] nums){
+//        int[] numbers = {5,6,8,9,5,6};
+//        Map<Integer,Integer> countMap = new HashMap<>();
+//
+//        for(int num : nums){
+//            if(countMap.containsKey(num)){
+//                countMap.put(num,countMap.get(num) + 1);
+//            }
+//            else {
+//                countMap.put(num,1);
+//            }
+//        }
+////        for (Map.Entry<Integer, Integer> entry : countMap.entrySet()) {
+////            System.out.println(entry.getKey() + " -> " + entry.getValue());
+//    }
 }
